@@ -77,7 +77,7 @@ const Intro = () => {
             </div>
           </div>
         </div>
-        <div className="mx-auto max-w-screen-lg px-6 border-4">
+        <div className="mx-auto max-w-screen-lg px-6">
           <h3 className="font-bold text-3xl font-mono">SUMMARY</h3>
           <p className="font-mono text-base hover:text-2xl">
             Architected and developed robust full-stack web applications,
