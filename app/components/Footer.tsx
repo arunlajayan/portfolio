@@ -6,7 +6,7 @@ const Footer = () => {
             <footer className="footer items-center p-4 bg-[#dc2626]  text-white mt-10">
   <div className="items-center grid-flow-col">
      
-    <p>Copyright © 2023 - All right reserved</p>
+    <p>Copyright ©2024. All rights reserved. Theme by Arun</p>
   </div> 
   
 </footer>

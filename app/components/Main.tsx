@@ -2,8 +2,9 @@ import React from "react";
 
 const main = () => {
   return (
+    <div>
     <div className="flex flex-col">
-      <div className="flex justify-between bg-gray-200 p-2 my-2">
+      <div className="flex justify-around bg-gray-200 p-2 my-2">
         <img
           src="assets/icon/angular.png"
           className="flex-shrink-0 w-auto h-16 object-cover"
@@ -41,7 +42,18 @@ const main = () => {
           className="flex-shrink-0 w-auto h-16 object-cover"
         />
       </div>
-    </div>
+      <div className="flex justify-evenly bg-gray-200 p-2 my-2">
+      <img
+          src="assets/svg/sql.svg"
+          className="flex-shrink-0 w-auto h-16 object-cover"
+        />
+        <img
+          src="assets/svg/mongodb.svg"
+          className="flex-shrink-0 w-auto h-16 object-cover"
+        />
+        </div>
+      </div>
+      </div>
   );
 };
 
