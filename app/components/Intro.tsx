@@ -79,7 +79,7 @@ const Intro = () => {
         </div>
         <div className="mx-auto max-w-screen-lg px-6">
           <h3 className="font-bold text-3xl font-mono">SUMMARY</h3>
-          <p className="font-mono text-base hover:text-2xl">
+          <p className="font-mono text-base hover:text-xl text-amber-950">
             Architected and developed robust full-stack web applications,
             seamlessly integrating front-end and back-end technologies.
             Proficient in diverse tech stacks, ensuring scalable and efficient
