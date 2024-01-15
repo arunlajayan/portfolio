@@ -2,7 +2,7 @@ import React from 'react';
 
 const Suggest = () => {
   return (
-    <div className="bg-blue-500 overflow-hidden relative" style={{ width: '800px', height: '200px' }}>
+    <div className="bg-blue-500 overflow-hidden relative" style={{ maxWidth:"660px", width: 'auto', height: '200px' }}>
       <div className="absolute inset-0 flex items-center justify-center">
         <img src="assets/jithin.jpg" alt="Profile 1" className="w-8 h-8 rounded-full mr-4" />
         <div>
