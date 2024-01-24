@@ -4,7 +4,7 @@ import Main from "./Main";
 const Intro = () => {
   return (
     <div className="m-12">
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap justify-around">
         <div className=" w-[200px] h-[200px]">
           <img
             className="border-r-4 border-indigo-200"
@@ -78,8 +78,8 @@ const Intro = () => {
           </div>
         </div>
         <div className="mx-auto max-w-screen-lg px-6">
-          <h3 className="font-bold text-3xl font-mono">SUMMARY</h3>
-          <p className="font-mono text-base hover:text-xl text-amber-950">
+          <h3 className="font-bold text-3xl font-mono ">SUMMARY</h3>
+          <p className="font-mono text-base animate-pulse">
             Architected and developed robust full-stack web applications,
             seamlessly integrating front-end and back-end technologies.
             Proficient in diverse tech stacks, ensuring scalable and efficient

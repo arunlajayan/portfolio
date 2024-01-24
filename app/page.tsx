@@ -8,12 +8,16 @@ import Suggest from './components/Suggest'
 
 export default function Home() {
   return (
-    <main>
+    <main >
+     
       <NavBar />
+      <div className="mx-auto px-4 sm:px-6 md:px-8 py-16 max-w-screen-xl min-h-[calc(100vh-3rem)]">
       <Intro />
       <div className='px-12'>
         <Main />
         <Suggest/>
+      </div>
+        
       </div>
       <Footer />
     </main>
