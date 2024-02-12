@@ -14,10 +14,12 @@ export default function Home() {
       <div className="mx-auto px-4 sm:px-6 md:px-8 py-16 max-w-screen-xl min-h-[calc(100vh-3rem)]">
       <Intro />
       <div className='px-12'>
-        <Main />
+        <Main /> 
         <Suggest/>
-      </div>
-        
+        </div>
+        <div>
+          UPCOMING...
+        </div>
       </div>
       <Footer />
     </main>
