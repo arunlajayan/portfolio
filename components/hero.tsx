@@ -2,11 +2,7 @@ import React from 'react'
 import Link  from 'next/link'
 import Image from 'next/image'
 
-const Hero5 = ({
-    children,
-  }: {
-    children: React.ReactNode
-  }) => {
+const Hero5 = () => {
     return(
         <section className="wpo-hero-style-5" >
             <div className="wpo-slide-wrap">

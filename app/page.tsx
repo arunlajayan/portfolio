@@ -6,13 +6,10 @@ import Hero5 from "@/components/hero";
 export default function Home() {
   return (
     <main className="">
-      
       <div className="px-16">
-        <Hero5 children={undefined} />
+        <Hero5  />
         <Experience/>
       </div>
-
-    
     </main>
   );
 }
